@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 # Set page config
-st.set_page_config(page_title="Distribution Fitting Tool", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Distribution Fitting Tool", layout="wide")
 
 # Custom CSS for styling
 st.markdown("""
@@ -354,3 +354,4 @@ st.markdown("""
     <p>Built with Streamlit | Powered by SciPy & Matplotlib</p>
 </div>
 """, unsafe_allow_html=True)
+
